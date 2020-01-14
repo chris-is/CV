@@ -1,0 +1,165 @@
+a {
+ color: #445c3c;
+ font-family: 'Montserrat', sans-serif;
+ text-decoration: none;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', serif;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  margin-bottom: 0;
+  font-size: 5.625rem;
+  font-family: 'Stalemate';
+}
+
+h2 {
+  font-size: 2.5rem;
+}
+
+hr {
+  border: dotted #c7f0db 6px;
+  border-bottom: none;
+  margin: 100px auto;
+  width: 4em;
+}
+
+.copyright {
+  color: #EAF6F6;
+  font-size: 0.75em;
+  padding: 10px 0;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile-paragraph {
+  width: 30%;
+  margin: 0 auto;
+}
+
+.top-container {
+  background-color: #698474;
+  position: relative;
+  padding-top: 100px;
+}
+
+.middle-container {
+}
+
+.movie-ref {
+  margin: 0 0;
+}
+
+.bottom-container {
+  background-color: #bac7a7;
+  padding: 50px 0 20px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 50px;
+}
+
+.skill-row1 {
+  margin: 100px auto 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row2 {
+  margin: 200px auto 200px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.skill-row-image1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skill-row-image2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+  /* float: left; */
+}
+
+.forest {
+  max-width: 100%;
+  height: auto;
+}
+
+.profile-pic {
+  width: 200px;
+  height: auto;
+  max-width: 50%;
+  margin: 50px 0;
+  border-radius: 50%;
+}
+
+.top-cloud {
+  max-width: 100%;
+  height: auto;
+}
+
+.bottom-cloud {
+  max-width: 100%;
+  height: auto;
+}
+
+.contact-me-note {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.get-in-touch {
+  margin-bottom: 1em;
+}
+
+.footer-link {
+  margin: 10px 20px;
+}
+
+.footer-link:hover{
+  color: #EAF6F6;
+}
+
+.myButton {
+	background-color:#445c3c;
+	border-radius:28px;
+	border:1px solid #445c3c;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Montserrat';
+	font-size:17px;
+	padding:15px 31px;
+	text-decoration:none;
+	text-shadow:0 1px 0 #2f6627;
+  margin: 2em 0 5.5em 0;
+}
+.myButton:hover {
+	box-shadow: 0 0 11px rgba(46, 49, 49, 1);
+  transition: all .2s ease;
+}
+
+.myButton:active {
+	position:relative;
+	top:1px;
+}
