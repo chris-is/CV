@@ -34,22 +34,28 @@ hr {
   padding: 10px 0;
 }
 
+.contact-header {
+  margin: 0 25px 25px;
+}
+
 .profile {
   text-align: center;
 }
 
-.profile-paragraph {
-  width: 30%;
-  margin: 0 auto;
-}
-
 .top-container {
-  background-color: #698474;
+  background-color: #f1fff1;
   position: relative;
   padding-top: 100px;
+  overflow: hidden;
 }
 
 .middle-container {
+  max-width: 460px;
+}
+
+.profile-paragraph {
+  font-size: 1.15em;
+  margin: 0 25px;
 }
 
 .movie-ref {
@@ -61,47 +67,42 @@ hr {
   padding: 50px 0 20px;
 }
 
-.bottom-cloud {
-  position: absolute;
-  left: 300px;
-  bottom: 300px;
-}
-
-.top-cloud {
-  position: absolute;
-  right: 300px;
-  top: 50px;
-}
-
 .skill-row1 {
   margin: 100px auto 100px auto;
-  width: 50%;
-  text-align: left;
+  /* width: 50%; */
+  /* text-align: left; */
+  text-align: center;
   line-height: 2;
 }
 
 .skill-row2 {
-  margin: 200px auto 200px auto;
-  width: 50%;
-  text-align: left;
+  /* margin: 200px auto 200px auto; */
+  /* width: 50%; */
+  /* text-align: left; */
+  text-align: center;
   line-height: 2;
 }
 
 .skill-row-image1 {
-  width: 25%;
-  float: left;
-  margin-right: 30px;
+  width: 50%;
+  /* float: left; */
+  /* margin-right: 30px; */
 }
 
 .skill-row-image2 {
-  width: 25%;
-  float: right;
-  margin-left: 30px;
+  width: 50%;
+  /* float: right; */
+  /* margin-left: 30px; */
   /* float: left; */
+}
+
+.skill-row-p {
+  margin: 0 25px;
 }
 
 .forest {
   max-width: 100%;
+  vertical-align: middle;
   height: auto;
 }
 
@@ -113,19 +114,28 @@ hr {
   border-radius: 50%;
 }
 
+.cloud {
+  position: absolute;
+  transition: all 1s ease-in-out;
+  z-index: 980;
+}
+
 .top-cloud {
-  max-width: 100%;
-  height: auto;
+  right: -1.5em;
+  width: 100px;
+  height: 100px;
+  top: 3em;
 }
 
 .bottom-cloud {
-  max-width: 100%;
-  height: auto;
+  left: -1.5em;
+  width: 100px;
+  height: 100px;
+  bottom: 20em;
 }
 
 .contact-me-note {
-  width: 50%;
-  margin: 0 auto;
+  margin: 0 25px;
 }
 
 .get-in-touch {
@@ -162,4 +172,117 @@ hr {
 .myButton:active {
 	position:relative;
 	top:1px;
+}
+
+@media only screen and (min-width: 461px)
+{
+  h1 {
+    font-size: 7em;
+  }
+
+  h3 {
+    font-size: 1.7em;
+  }
+
+  p {
+    font-size: 1.3em;
+  }
+
+  .top-cloud {
+    right: -2.5em;
+    width: 150px;
+    height: 150px;
+    top: 3em;
+  }
+
+  .bottom-cloud {
+    left: -2.5em;
+    width: 150px;
+    height: 150px;
+    bottom: 20em;
+  }
+
+  .contact-me-note {
+    margin: 0 50px;
+  }
+
+  .middle-container {
+    max-width: 100%;
+  }
+
+  .profile-paragraph {
+    font-size: 1.5em;
+    margin: 0 50px;
+  }
+
+  .skill-row1 {
+    margin: 100px auto 100px auto;
+    /* width: 50%; */
+    /* text-align: left; */
+    text-align: center;
+    line-height: 2;
+  }
+
+  .skill-row2 {
+    /* margin: 200px auto 200px auto; */
+    /* width: 50%; */
+    /* text-align: left; */
+    text-align: center;
+    line-height: 2;
+  }
+
+  .skill-row-p {
+    margin: 0 50px;
+  }
+}
+
+@media only screen and (min-width: 1000px)
+{
+
+  .contact-me-note {
+    margin: 0 50px;
+  }
+
+  .middle-container {
+    max-width: 100%;
+  }
+
+  .profile-paragraph {
+    font-size: 1.5em;
+    width: 50%;
+    margin: 0 auto;
+  }
+
+  .skill-row1 {
+    margin: 100px auto 100px auto;
+    width: 75%;
+    /* text-align: left; */
+    text-align: center;
+    line-height: 2;
+  }
+
+  .skill-row2 {
+    margin: 200px auto 200px auto;
+    width: 75%;
+    /* text-align: left; */
+    text-align: center;
+    line-height: 2;
+  }
+
+  .skill-row-image1 {
+    width: 30%;
+    float: left;
+    margin-right: 30px;
+  }
+
+  .skill-row-image2 {
+    width: 30%;
+    float: right;
+    margin-left: 30px;
+    /* float: left; */
+  }
+
+  .skill-row-p {
+    margin: 0 50px;
+  }
 }
